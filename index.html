@@ -19,11 +19,11 @@
     <header>
       <div class="info-header">
         <div class="info">
-            <img class="info-icon" src="fidelidade.png" alt="">
+            <img class="info-icon" src="./imagens/fidelidade.png" alt="">
                 Temos cartão fidelidade
         </div>
         <div class="info">
-           <img class="info-icon" src="cartao.png" alt="">
+           <img class="info-icon" src="./imagens/cartao.png" alt="">
                 Vendas em até 6x no cartão
         </div>
       </div>
@@ -39,7 +39,7 @@
         <div id="navC" class="collapse navbar-collapse">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="#louge" data-bs-toggle="tab">Louge</a>
+              <a class="nav-link" href="#lounge" data-bs-toggle="tab">Lounge</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#essencia" data-bs-toggle="dropdown"
@@ -55,7 +55,7 @@
                 <a id="acess-drop" class="nav-link dropdown-toggle" href="#narguile" data-bs-toggle="dropdown"
                   >Acessórios</a
                 >
-                <ul class="dropdown-menu dropdown-menu-dark justify-content-center">
+                <ul class="dropdown-menu dropdown-menu-dark justify-content-center ">
                     <li><a class="dropdown-item" href="#">Rosh</a></li>
                     <li><a class="dropdown-item" href="#">Pratos</a></li>
                     <li><a class="dropdown-item" href="#">Mangueiras</a></li>
@@ -71,11 +71,37 @@
           </ul>
         </div>
         <div class="navbar-brand">
-          The Hookah RO <img class="logo" src="logo.jpg" alt="" />
+          LOGO LOGO <img class="logo" src="logo.jpg" alt="" />
         </div>
       </nav>
     </header>
+    <main class="p-3">
+      <div class="m-3">
+        <h2>Promoções</h2>
+        <hr>
+      </div>
+      <section class="container d-flex justify-content-center">
+        <div id="banner-prom" class="carousel slide" data-bs-ride="carousel">
+          <button id="banner-prom" class="carousel-control-next" data-bs-slide="next" data-bs-target="#banner-prom" href="">
+            <span class="carousel-control-next-icon"></span>
+          </button>
 
+          <button id="banner-prom" class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#banner-prom" href="">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active"> <img class="img-fluid prom-imagens" src="./imagens/promocao1.jpg" alt="promoção"></div>
+            <div class="carousel-item"> <img class="img-fluid prom-imagens" src="./imagens/promocao2.jpg" alt="promoção"></div>
+            <div class="carousel-item"> <img class="img-fluid prom-imagens" src="./imagens/promocao3.jpg" alt="promoção"></div>
+          </div>
+        </div>
+      </section>
+      <div class="m-3">
+        <h2>Lounge</h2>
+        <hr>
+      </div>
+    </main>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
       integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"

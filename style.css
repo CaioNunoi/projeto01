@@ -16,3 +16,8 @@
     margin: 10px;
     width: 18px;
 }
+
+.prom-imagens {
+    max-width: 100%;
+    height: auto;
+}
