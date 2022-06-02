@@ -13,9 +13,9 @@
 }
 
 
-.info-header {    
+.info-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
     align-items: baseline;
     align-content: center;
 }
