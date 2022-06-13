@@ -66,6 +66,10 @@
    .card-title {
     font-size: 1em;
    }
+
+   .card {
+    width: 50vw;
+   }
 }
 
 @media  screen and ( min-width: 567px){
